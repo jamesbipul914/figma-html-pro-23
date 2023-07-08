@@ -43,6 +43,10 @@ a {
     background: #4CAF4F;
 }
 
+span {
+    color: #4CAF4F;
+}
+
 /* Header CSS */
 
 header {
@@ -106,10 +110,6 @@ header {
      font-size: 50px;
      font-family: 'Inter', sans-serif;
      font-weight: 600;
- }
-
- .banner-text span {
-     color: #4CAF4F;
  }
 
  .banner-text p {
@@ -185,4 +185,10 @@ header {
 .ex-btn:hover {
     background-color: #18191F;
     color: #4CAF4F;
+}
+
+/* Local Client CSS */
+
+#local-client {
+    background-color: #F5F7FA;
 }
