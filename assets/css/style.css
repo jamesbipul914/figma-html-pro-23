@@ -1,0 +1,156 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common CSS */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.75rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-btn {
+    padding: 12px 28px;
+    border-radius: 10px;
+    background: #4CAF4F;
+}
+
+/* Header CSS */
+
+header {
+    background-color:#F5F7FA;
+}
+
+.header-form .sign-up {
+    box-shadow: -2px 4px 5px 3px rgba(0,0,0,0.15);
+    -webkit-box-shadow: -2px 4px 5px 3px rgba(0,0,0,0.15);
+    -moz-box-shadow: -2px 4px 5px 3px rgba(0,0,0,0.15);
+    margin-right: 10px;
+    }
+
+.header-form button:focus {
+    box-shadow: none !important;
+}
+
+.sign-up {
+    background-color: #4CAF4F;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.nav-button:hover {
+    background-color: #4CAF4F;
+    color: #ffffff;
+}
+
+.sign-up:hover {
+    background-color: #18191F;
+    color: #ffffff;
+}
+
+/* Nav CSS */
+
+.navbar-nav li {
+    margin-right: 30px;
+}
+
+.navbar-nav li a {
+    color: #18191F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.navbar-nav li a:hover {
+    background-color: #4CAF4F;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+/* Banner CSS */
+
+.hero {
+    max-height: 599px;
+    padding: 96px 40px;
+ }
+
+ .banner-text h1 {
+     font-size: 50px;
+     font-family: 'Inter', sans-serif;
+     font-weight: 600;
+ }
+
+ .banner-text span {
+     color: #4CAF4F;
+ }
+
+ .banner-text p {
+     font-size: 16px;
+     font-family: 'Inter', sans-serif;
+     font-weight: 400;
+ }
+
+ .banner-btn {
+     background-color: #4CAF4F;
+     color: #fff;
+     border-radius: 5px;
+     padding: 14px 32px;
+ }
+
+ .banner-btn:hover {
+     background-color: #ffffff;
+     color: #18191F;
+     border-radius: 5px;
+     border: 1px solid #4CAF4F;
+ }
+
+ .banner-image {
+     width: 100%;
+ }
+
+ /* Slick slider CSS */
+
+.slick-dots {
+    padding: 0;
+    display: flex !important;
+    justify-content: center;
+}
+
+.slick-dots button {
+    display: none;
+}
+
+.slick-dots li {
+    width: 10px;
+    height: 10px;
+    background-color: #C2E1C7;
+    margin: 97px 10px 0 0;
+    border-radius: 50%;
+}
+.slick-dots li.slick-active {
+    background-color: #4CAF4F;
+}
