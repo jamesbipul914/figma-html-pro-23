@@ -73,7 +73,7 @@ header {
 
 .sign-up:hover {
     background-color: #18191F;
-    color: #ffffff;
+    color: #4CAF4F;
 }
 
 /* Nav CSS */
@@ -126,8 +126,8 @@ header {
  }
 
  .banner-btn:hover {
-     background-color: #ffffff;
-     color: #18191F;
+     background-color: #18191F;
+     color: #4CAF4F;
      border-radius: 5px;
      border: 1px solid #4CAF4F;
  }
@@ -164,4 +164,25 @@ header {
 #client .container {
     padding-left: 0;
     padding-right: 0;
+}
+
+/* Community CSS */
+
+.com-card {
+    border-bottom: .5px solid #cdd0dd;
+}
+
+.com-card h3 {
+    font-size: 35px;
+}
+
+/* Experience CSS */
+
+.ex-text {
+    padding-right: 50px;
+}
+
+.ex-btn:hover {
+    background-color: #18191F;
+    color: #4CAF4F;
 }
