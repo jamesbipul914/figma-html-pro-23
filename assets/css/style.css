@@ -211,3 +211,15 @@ header {
     background-color: #18191F;
     color: #4CAF4F;
 }
+
+/* Customer CSS */
+
+#customer {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.right-angle {
+    display: inline-block;
+    color: #4CAF4F;
+}
