@@ -222,4 +222,20 @@ header {
 .right-angle {
     display: inline-block;
     color: #4CAF4F;
+    padding-left: 10px;
+}
+
+/* Marketing CSS */
+
+#marketing .text {
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 2;
+    margin-top: -102px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+#marketing .image img {
+    width: 100%;
 }
