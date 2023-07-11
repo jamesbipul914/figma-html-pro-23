@@ -239,3 +239,34 @@ header {
 #marketing .image img {
     width: 100%;
 }
+
+/* Testimonial CSS */
+
+#testimonial {
+    background-color: #F5F7FA;
+    padding: 32px 0;
+}
+.testi-text h2 {
+    font-size: 64px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+}
+.testi-btn {
+    margin-top: 32px;
+    color: #ffffff;
+}
+
+.testi-text .right-angle {
+    color: #ffffff;
+}
+
+.testi-btn:hover {
+    background-color: #18191F;
+    color: #4CAF4F;
+}
+
+.testi-text .right-angle:hover {
+    color: #4CAF4F;
+}
